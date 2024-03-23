@@ -1,0 +1,38 @@
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.imagens-container{
+    display: flex;
+    flex-direction: column;
+
+    width: 80%;
+    gap: 8px;
+}
+
+.three-imagens{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.imagepe{
+    width: 500px;
+}
+
+
+.two-imagens{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.imagequadrada{
+    width: 753px;
+}
+
+
+.imagedeitada{
+    width: 1515px;
+}
