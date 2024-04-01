@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    border: 1px solid red;
+    height: 100vh;
+    width: 100%;
+}
+.Informations{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100vh;
+}
+
+
+.box-container{
+    background-color: rgb(29, 28, 28);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 70%;
+}
+.imagemPessoa{
+    width: 150px;
+    height: 150px;
+}
+.imagemPessoa img{
+    border-radius: 200px;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* 
+<body>
+
+    <section className='box-container'>
+      <div className="imagemPessoa">
+        <img src={ImagemAvatar} alt="" />
+      </div>
+
+      <div className="infosPessoais">
+        <div className="nome"><p>Jessica Randall</p></div>
+        <div className="nacionalidade"><p>Londom, United Kingdom</p></div>
+        <div className="description"><p>Front-End developer and avid reader</p></div>
+      </div>
+
+      <section className="buttons">
+        <button><p>Github</p></button>
+        <button><p>Frontend Mentor</p></button>
+        <button><p>Linkedin</p></button>
+        <button><p>Twitter</p></button>
+        <button><p>Instagram</p></button>
+      </section>
+
+    </section>
+    
+    </body>
+
+
+*/
