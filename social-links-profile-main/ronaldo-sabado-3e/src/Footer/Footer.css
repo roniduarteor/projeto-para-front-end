@@ -1,0 +1,9 @@
+.meuFooter{
+    margin-top: 80px;
+    background-color: #EB6440;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
