@@ -21,6 +21,7 @@
 // Quando a função de modificação do estado é ativada, todos os componentes que dependerem do estado, serão renderizados e os seus filhos também. É isso que garante a reatividade de componentes funcionais no React.'
 
 import React from 'react'
+
 const App = ()=>{
 
     const [ativo, setAtivo] = React.useState(true)
