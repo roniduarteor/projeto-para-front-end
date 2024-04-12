@@ -1,0 +1,15 @@
+.cabecalhoCards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+
+    font-weight: 600;
+
+}
+
+.conteudo{
+    margin-bottom: 20px;
+    margin-left: 20px;
+}

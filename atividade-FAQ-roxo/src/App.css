@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(../arquivosExemplo/images/background-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #F9EEFF;
+
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#root{
+    width: 50%;
+    
+}
+.conteudoPrincipal{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    background-color: white;
+    border: none;
+}

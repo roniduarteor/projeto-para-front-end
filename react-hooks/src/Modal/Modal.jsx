@@ -1,5 +1,4 @@
 
-
 const Modal = ({modal, setModal}) => {
     if(modal === true){
     return(

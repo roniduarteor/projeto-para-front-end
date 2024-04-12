@@ -12,6 +12,7 @@ const App = () => {
         <ButtonModal setModal={setModal}/>
         <Modal modal={modal} setModal={setModal}/>
         </>
+        
     )
 }
 
