@@ -1,0 +1,13 @@
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+    height: 500px;
+    width: 400px;
+}
+
+img{
+    width: 100px;
+}
