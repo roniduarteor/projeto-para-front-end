@@ -1,0 +1,13 @@
+body{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+button{
+  height: 25px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
